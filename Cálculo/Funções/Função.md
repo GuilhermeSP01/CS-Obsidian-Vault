@@ -4,11 +4,11 @@ Uma função, no contexto da matemática, é uma relação entre dois [[Conjunto
 Se cada valor do domínio não estiver associado a um único valor do contradomínio, a relação não pode ser chamada de função.
 
 ## Definição formal
-- **Domínio**: O conjunto de todos os valores possíveis de entrada;
+- **Domínio**: O conjunto de todos os valores possíveis de entrada; ^559652
 - **Contradomínio**: O conjunto de todos os valores possíveis de saída;
 - **Regra de correspondência**: A relação que define como cada valor de entrada é associado a um valor de saída.
 
-Uma função é denotada por $f$ e escrita como $f(x)$, onde $x$ é a variável independente (entrada) e $f(x)$ é a variável dependente (saída).
+Uma função é denotada por $f$ e escrita como $f(x)$, onde $x$ é a variável independente (entrada) e $f(x)$ é a variável dependente (saída). ^6dec47
 
 ## Exemplos
 - A função $f(x) = x + 2$ mapeia cada valor de $x$ para um valor que é 2 unidades maior que $x$.

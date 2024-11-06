@@ -1,5 +1,37 @@
 # Definição
+O limite é um conceito fundamental em matemática que descreve o comportamento de uma [[Função|função]] quando a variável de entrada se aproxima de um determinado valor. Ele é essencial para entender muitos aspectos do cálculo e da análise matemática.
 
+Os limites são fundamentais para definir [[Derivada|derivadas]] e [[Integral|integrais]], que são as bases do cálculo diferencial e integral. Eles também são usados para estudar a [[Função Contínua|continuidade das funções]] e o [[Comportamento Assintótico|comportamento assintótico]].
+
+## Definição Intuitiva
+Intuitivamente, o limite de uma função $f(x)$ à medida que $x$ se aproxima de um valor $c$ é o valor que $f(x)$ parece estar se aproximando. Esse valor é denotado como $\lim_{x \to c} f(x)$.
+
+## Definição Formal
+Formalmente, dizemos que o limite de $f(x)$ quando $x$ se aproxima de $c$ é $L$ (escrito como $\lim_{{x \to c}} f(x) = L)$ se, para cada número positivo $\epsilon$, existe um número positivo $\delta$ tal que para todos os $x$:
+
+$$
+0 < |x - c| < \delta 
+\implies |f(x) - L| < \epsilon
+$$
+
+## Exemplos
+**[[Função do 1º Grau|Função Linear]]**
+	Para $f(x) = 2x + 1$, o limite quando $x$ se aproxima de 3 é:
+	$$ \lim_{x \to 3} (2x + 1) = 2.3 + 1 = 7 $$
+**[[Função Descontínua#Descontinuidade Removível|Função com Descontinuidade Removível]]**
+	Para a função
+	$$
+	f(x) = \begin{cases}
+		\frac {x^2 - 1} {x - 1} & x \ne 1 \\
+		2 & x = 1
+	\end{cases}
+	$$
+	Embora $f(x)$ não esteja definida em $x = 1$, podemos encontrar o limite:
+	$$
+	\lim_{x \to 1} \frac {x^2 - 1} {x - 1}
+	= \lim_{x \to 1} (x + 1)
+	= 2
+	$$
 # Exercícios
 
 ##### Exercício 1 (UEL)
@@ -194,16 +226,45 @@ x) $x$
 Resolução:
 $$x$$
 
-##### Exercício 5
-q
-$$e$$
-a) 
-b) 
-c) 
-d) 
-e) 
+##### Exercício 7 (UESPI)
+Qual o valor do limite
+$$ \lim_{x\ ->\ 0} (\frac{\sqrt{x + 25} - 5}{\sqrt{x + 16}{-4}}) $$
+a) 0
+b) 1/5
+c) 2/5
+d) 3/5
+e) 4/5
 ###### Resposta
-x) $x$
+e) $4/5$
 
 Resolução:
-$$x$$
+
+Ao substituir diretamente $x$, o resultado é indeterminado.
+$$
+\lim_{x\ ->\ 0} (\frac {\sqrt{x + 25} - 5} {\sqrt{x + 16} - 4})
+= \frac {\sqrt{0 + 25} - 5} {\sqrt{0 + 16} - 4}
+= \frac {5 - 5} {4 - 4}
+= \frac {0} {0}
+$$
+
+Fazendo a racionalização do denominador multiplicando pelo seu conjugado, o resultado continuaria indeterminado, então é necessário também fazer a racionalização pelo numerador.
+
+$$
+\lim_{x\ ->\ 0} (\frac {\sqrt{x + 25} - 5} {\sqrt{x + 16} - 4})
+= \frac {\sqrt{x + 25} - 5} {\sqrt{x + 16} - 4}
+	. \frac {\sqrt{x + 16} + 4} {\sqrt{x + 16} + 4}
+	. \frac {\sqrt{x + 25} + 5} {\sqrt{x + 25} + 5}
+= \frac {(x + 25 - 25) . (\sqrt{x + 16} + 4)} {(x + 16 - 16) . (\sqrt{x + 25} + 5)}
+$$
+$$
+= \frac {x . \sqrt{x + 16} + 4} {x . \sqrt{x + 25} + 5}
+= \frac {\sqrt{x + 16} + 4} {\sqrt{x + 25} + 5}
+$$
+Agora é possível substituir o x.
+$$
+\lim_{x\ ->\ 0} (\frac {\sqrt{x + 16} + 4} {\sqrt{x + 25} + 5})
+= \frac {\sqrt{0 + 16} + 4} {\sqrt{0 + 25} + 5}
+= \frac {4 + 4} {5 + 5}
+= \frac {8} {10}
+= \frac {4} {5}
+$$
