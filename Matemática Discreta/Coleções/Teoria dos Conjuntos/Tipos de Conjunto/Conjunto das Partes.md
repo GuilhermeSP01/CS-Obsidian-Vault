@@ -2,6 +2,7 @@
 O **[[Conjunto|conjunto]] das partes** (ou **conjunto potência**) de um conjunto $A$ é o conjunto que contém **todos os [[Subconjunto|subconjuntos]] possíveis** de $A$, incluindo o próprio conjunto $A$ e o **[[conjunto vazio]]** ($\emptyset$). Em outras palavras, o conjunto das partes de um conjunto $A$ é a coleção de todos os subconjuntos que podem ser formados a partir dos elementos de $A$.
 ## Notação
 O conjunto das partes de um conjunto $A$ é geralmente denotado por $P(A)$ ou, às vezes, por $2^A$, indicando que ele contém todas as combinações possíveis dos elementos de $A$.
+[[Número de Subconjuntos]]
 ## Descrição Formal
 Seja $A$ um conjunto. O **conjunto das partes** de $A$, denotado por $P(A)$, é definido como o conjunto de todos os subconjuntos de $A$. Formalmente:
 $$ P(A) = \{B\ |\ B \supseteq A\} $$
