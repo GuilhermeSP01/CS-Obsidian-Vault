@@ -1,6 +1,7 @@
 # Definição
 A **cardinalidade da [[união de conjuntos]]** refere-se ao número de elementos no [[conjunto]] resultante da união de dois ou mais conjuntos. A união de dois conjuntos $A$ e $B$, denotada por $A∪B$, é o conjunto que contém todos os elementos que pertencem a $A$, a $B$, ou a ambos. Para calcular a cardinalidade da união, é necessário levar em consideração os elementos comuns aos conjuntos, para evitar contá-los mais de uma vez.
 ## Fórmula
+
 A fórmula para calcular a cardinalidade da união de dois conjuntos $A$ e $B$ é:
 $$ ∣A∪B∣\ =\ ∣A∣+∣B∣−∣A∩B∣ $$
 

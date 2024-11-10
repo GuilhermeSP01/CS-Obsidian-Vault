@@ -41,3 +41,10 @@ As classes de equivalência aparecem em várias áreas da matemática e têm div
 - **Geometria**: Na geometria projetiva e afim, pontos ou figuras podem ser considerados equivalentes sob certas transformações.
 - **Teoria dos Conjuntos**: As classes de equivalência ajudam a definir partições e conjuntos quocientes.
 - **Teoria dos Grupos**: Em álgebra abstrata, as classes laterais (ou cosets) são um exemplo importante.
+
+Seja $E = \{x \in\ Z / -5 \le x \le 5\}$ e considere a relação $R = \{(x,y) \in ExE / x^2 + 2x = y^2 + 2x\}$. Assinale a alternativa que contenha a classe de equivalência do inteiro 2:
+a) $[2] = \{-4,3\}$
+b) $[2] = \{-4,2\}$
+c) $[2] = \{-3,4\}$
+d) $[2] = \{-3,4\}$
+e) $[2] = \{2,3\}$
