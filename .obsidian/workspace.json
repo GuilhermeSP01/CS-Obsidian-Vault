@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Indução Matemática/Indução Matemática.md",
+                "file": "Cálculo/Derivada/Regras de Derivação/Regras de Derivação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indução Matemática"
+              "title": "Regras de Derivação"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 215.5
   },
   "right": {
     "id": "5456c3976276fe94",
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Indução Matemática/Indução Matemática.md"
+                "file": "Cálculo/Derivada/Regras de Derivação/Regras de Derivação.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de Indução Matemática"
+              "title": "Sumário de Regras de Derivação"
             }
           },
           {
@@ -173,10 +173,21 @@
   },
   "active": "0390345383cf74fc",
   "lastOpenFiles": [
+    "Cálculo/Derivada/Regras de Derivação/Derivada do Quociente.md",
+    "Cálculo/Derivada/Regras de Derivação/Regras de Derivação.md",
+    "Cálculo/Derivada/Regras de Derivação/Derivada do Produto.md",
+    "Cálculo/Derivada/Regras de Derivação/Derivada de Soma e Subtração.md",
+    "Cálculo/Derivada/Regras de Derivação/Derivada de Potência.md",
+    "Cálculo/Derivada/Regras de Derivação/Derivada de Constante.md",
+    "Cálculo/Derivada/Derivada.md",
+    "Cálculo/Derivada/Regras de Derivação",
+    "Cálculo/Limites/Comportamento Assintótico.md",
+    "Cálculo/Derivada",
+    "Cálculo/Limites/Limite.md",
+    "Matemática Discreta/Indução Matemática/Indução Matemática.md",
     "Matemática Discreta/Indução Matemática/Indução Forte.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Classe de Equivalência.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Congruência Módulo n.md",
-    "Matemática Discreta/Indução Matemática/Indução Matemática.md",
     "Matemática Discreta/Indução Matemática/Princípio da Boa Ordem.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Relação.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Tipos de Conjunto/Conjunto Vazio.md",
@@ -193,27 +204,16 @@
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Operações com Conjuntos/Diferença de Conjuntos.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Operações com Conjuntos/Operações com Conjuntos.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Operações com Conjuntos/Interseção de Conjuntos.md",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Operações com Conjuntos/Produto Cartesiano.md",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Operações com Conjuntos/União de Conjuntos.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Operações com Conjuntos/intersecao de conjuntos.png",
     "napkin-selection (1).png",
     "napkin-selection.png",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Conjunto.md",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Diagrama de Venn.md",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Igualdade entre Conjuntos.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/operacoes entre conjuntos.png",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Tipos de Relação/Relação Binária.md",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Tipos de Relação/Relação de Equivalência.md",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Relação Inversa.md",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Tipos de Relação/Relação de Ordem.md",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Propriedades das Relações",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações/Tipos de Relação",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Relações",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/diagrama de venn.png",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Tipos de Conjunto",
     "Matemática Discreta/Coleções/Teoria dos Conjuntos/Operações com Conjuntos",
-    "Matemática Discreta/Coleções/Teoria dos Conjuntos",
-    "Matemática Discreta/Binômio de Newton",
-    "Cálculo/Limites"
+    "Matemática Discreta/Coleções/Teoria dos Conjuntos"
   ]
 }
